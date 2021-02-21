@@ -1,11 +1,18 @@
 # polka-prometheus-middleware
-polka middleware to prometheus
+
+## Install
+```
+npm  i -S polka-prometheus-middleware
+```
+
+
+## How To
 
 ```.javascript
 
-const promMid = require('polka-prometheus-middleware')
+const polka = require('polka-prometheus-middleware')
 
-const app  = promMid({
+const app  = polka({
     metricsPath: '/metrics',
     collectDefaultMetrics: true,
     requestDurationBuckets: [0.1, 0.5, 1, 1.5]
