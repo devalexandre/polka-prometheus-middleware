@@ -1,0 +1,47 @@
+{
+  "name": "polka-prometheus-middleware",
+  "version": "1.0.0",
+  "description": "polka middleware to prometheus",
+  "keywords": [],
+  "main": "src/index.js",
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "lint": "eslint . && echo '✔  Your .js files look good.'",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devalexandre/polka-prometheus-middleware.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devalexandre/polka-prometheus-middleware/issues"
+  },
+  "homepage": "https://github.com/devalexandre/polka-prometheus-middleware#readme",
+  "devDependencies": {
+    "polka": "^0.5.2",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@ls-age/commitlint-circle": "^1.0.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "husky": "^4.2.5",
+    "prom-client": ">= 10.x <= 13.x",
+    "standard-version": "^8.0.1"
+  },
+  "dependencies": {
+    "response-time": "^2.3.2",
+    "url-value-parser": "^2.0.0"
+  },
+  "peerDependencies": {
+    "express": "4.x",
+    "prom-client": ">= 10.x <= 13.x"
+  },
+  "optionalDependencies": {
+    "prometheus-gc-stats": "^0.6.2"
+  }
+}
