@@ -2,7 +2,10 @@
   "name": "polka-prometheus-middleware",
   "version": "1.0.0",
   "description": "polka middleware to prometheus",
-  "keywords": [],
+  "keywords": [
+    "prometheus",
+    "polka"
+  ],
   "main": "src/index.js",
   "files": [
     "src/"
@@ -15,14 +18,13 @@
     "type": "git",
     "url": "git+https://github.com/devalexandre/polka-prometheus-middleware.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Alexandre E Souza",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/devalexandre/polka-prometheus-middleware/issues"
   },
   "homepage": "https://github.com/devalexandre/polka-prometheus-middleware#readme",
   "devDependencies": {
-    "polka": "^0.5.2",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@ls-age/commitlint-circle": "^1.0.0",
@@ -30,6 +32,8 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.13.0",
     "husky": "^4.2.5",
+    "nodemon": "^2.0.7",
+    "polka": "^0.5.2",
     "prom-client": ">= 10.x <= 13.x",
     "standard-version": "^8.0.1"
   },
