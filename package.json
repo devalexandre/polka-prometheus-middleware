@@ -42,7 +42,7 @@
     "url-value-parser": "^2.0.0"
   },
   "peerDependencies": {
-    "express": "4.x",
+    "polka": "^0.5.2",
     "prom-client": ">= 10.x <= 13.x"
   },
   "optionalDependencies": {
